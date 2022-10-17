@@ -1,6 +1,6 @@
 # example-just-react
 
-A minimal example of a React app built using Reflame app.
+A minimal example of a Reflame React app.
 
 Reflame is completely self-contained, and not dependent on Node, NPM, or any other tools.
 
