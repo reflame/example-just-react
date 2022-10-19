@@ -7,11 +7,14 @@
   "appId": "01GFF4HBKFB6ETSMGE0SHEQGJR",
 
   // Reflame will watch this directory for your React source code and ship changes
-  // instantly. 
-  //
-  // If your React app lives somewhere other than the 'app' folder, 
-  // we'll need your help by pointing to it here.
+  // instantly.
   "baseDirectory": "app",
+    
+  // Reflame will use this to keep your app up to date as we make improvements.
+  "foundation": {
+    "name": "just-react",
+    "version": 1,
+  },
 
   // NPM packages listed here will be installed by Reflame every time you update this file.
   // 
