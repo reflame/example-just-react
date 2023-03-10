@@ -13,6 +13,9 @@ import * as reactDom from 'react-dom/client'
 // This is just how absolute paths on the web works natively.
 import { Root } from '/root.js'
 
+// CSS imports also work out of the box
+import './global.css'
+
 export const init = () => {
   reactDom
     .createRoot(document.getElementById('root'))
